@@ -1,0 +1,152 @@
+.centertitle {
+margin: auto;
+width: 1450px;
+padding: 10px;
+border: 3px solid rgb(234, 221, 221);
+text-align: center;
+background-color:rgb(127, 40, 40) ;
+border-radius: 10px;
+}
+li{
+  float: left;
+  margin-left: 10px;
+  
+  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color:rgba(196, 83, 83, 0.385);
+  border-radius: 5px;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.active{
+      background-color: rgb(127, 40, 40);
+      border-radius: 5px;
+}
+h1{
+  color: rgb(234, 217, 217);
+}
+h2{
+  color:rgb(234, 217, 217) ;
+
+}
+.ani{
+  color:  rgb(234, 217, 217);
+  text-align: center;
+  font-size: larger;
+  background-color:rgb(127, 40, 40);
+  border-radius: 10px;
+  width: 500px;
+  padding: 5px;
+  margin-left: 280px;
+  border: 3px solid rgb(234, 221, 221);
+  margin-bottom: 50px;
+ 
+}
+.search {
+  margin: 10px;
+  padding-left: 1000px;
+  width: 500px;
+  
+}
+main{
+  padding-left: 90px;
+}
+.div1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-bottom: 20px;
+  
+}
+.div1 .thumbnail {
+  position: relative;
+  width: 250px;
+  height: 140px;
+  margin: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  color: rgb(234, 217, 217) ;
+  border-radius: 10px;
+}
+.div1 .thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+.div1 .thumbnail:hover {
+  transform: scale(1.1);
+}
+.div1 .title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(177, 7, 7, 0.374);
+  color: rgb(234, 217, 217);
+  padding: 10px;
+  margin: 0;
+  font-weight: bold;
+}
+.div1 .thumbnail {
+  width: 275px;
+  height: 155px;
+}
+.div1 .title {
+  font-size: 14px;
+  padding: 8px;
+}
+.div1 img {
+    border: 4px solid rgba(64, 7, 7, 0.188);
+    border-radius: 10px;
+}
+.column {
+  border: 5px solid rgb(234, 217, 217) ;
+  border-top: 30px solid rgb(234, 217, 217) ;
+  float: right;
+  padding-right: 0%;
+  width: 500px;
+  height: 700px;
+  border-radius: 10px;
+  position: relative;
+  
+}
+.column h2{
+  padding-left: 80px;
+}
+.column a{
+  padding-left: 80px;
+  text-decoration: none;
+  font-size: large;
+}
+a:visited{
+color: rgb(234, 217, 217) ;
+}
+a:hover{
+color: red;
+}
+a:active{
+  color: blue;
+}
+form{
+  background-color: #8f0e0e;
+  width: 200px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+::placeholder{
+  color:white;
+  opacity: 0.4;
+  padding: 6px 10px;
+}
